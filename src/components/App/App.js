@@ -1,4 +1,5 @@
 import Header from '../Header/Header'
+import AllParks from '../AllParksCont/AllParks'
 import { getAllParksInfo } from '../../apiCalls'
 import { useState, useEffect } from 'react'
 import './App.css'
@@ -24,6 +25,7 @@ function App() {
   return(
     <main className='App'>
       <Header />
+      <AllParks />
       <h2>Main</h2>
     </main>
   )
