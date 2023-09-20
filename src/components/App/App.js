@@ -1,3 +1,4 @@
+import Header from '../Header/Header'
 import { useState } from 'react'
 import './App.css'
 
@@ -5,7 +6,8 @@ function App() {
 
   return(
     <main className='App'>
-      <h1>ParkPlanner</h1>
+      <Header />
+      <h2>Main</h2>
     </main>
   )
 }
