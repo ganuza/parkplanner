@@ -3,6 +3,7 @@ import AllParks from '../AllParks/AllParks'
 import { getAllParksInfo } from '../../apiCalls'
 import { useState, useEffect } from 'react'
 import './App.css'
+import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
   const [allParksData, setAllParksData] = useState([])
@@ -29,8 +30,9 @@ const App = () => {
   return(
     <main className='App'>
       <Header />
-      <AllParks allParksData={allParksData}/>
-      <h2>Main</h2>
+      <Routes>
+        <Route path="/" element={<AllParks allParksData={allParksData} />}></Route>
+      </Routes>
     </main>
   )
 }
