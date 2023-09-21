@@ -1,0 +1,12 @@
+.parks-card {
+  border: 2px solid green;
+  height: auto;
+  width: auto;
+}
+
+.parks-card img {
+  /* object-fit: contain; */
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
