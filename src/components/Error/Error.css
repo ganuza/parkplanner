@@ -1,0 +1,29 @@
+.error-nps-icon {
+  height: 200px;
+}
+
+.error-message {
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-home-btn {
+  margin-top: 5vh;
+  height: 9vh;
+  width: 30vw;
+  font-size: 3vh;
+  font-family: Alfa Slab One;
+  background-color: #004D00;
+  color: #F6E8D7;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.link-home-btn:hover {
+  background-color: #F6E8D7;
+  color: #004D00;
+}

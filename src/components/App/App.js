@@ -1,6 +1,7 @@
 import Header from '../Header/Header'
 import AllParks from '../AllParks/AllParks'
 import SelectedPark from '../SelectedPark/SelectedPark'
+import ErrorComponent from '../Error/Error'
 import { getAllParksInfo } from '../../apiCalls'
 import { useState, useEffect } from 'react'
 import './App.css'
@@ -8,7 +9,7 @@ import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
   const [allParksData, setAllParksData] = useState([])
-  const [serverError, setServerError] = useState({hasError: false, massage: ''})
+  const [serverError, setServerError] = useState({hasError: false, message: ''})
   
   useEffect(() => {
 
@@ -27,14 +28,27 @@ const App = () => {
         setServerError({hasError: true, message: `${error.message}`})
       })
   },[])
+
+  const resetError = () => {
+    setServerError({hasError: false, message: ''})
+  }
   
   return(
     <main className='App'>
       <Header />
+      {serverError.hasError ? (
+        <ErrorComponent
+          message={serverError.message}
+          resetError={resetError}
+        />
+      ) : (
+
       <Routes>
         <Route path="/" element={<AllParks allParksData={allParksData} />}></Route>
         <Route path="/park/:parkId" element={<SelectedPark allParksData={allParksData} />}></Route>
+        <Route path="*" element={<ErrorComponent message={{message: "The page you're looking for doesn't exist."}} resetError={resetError} />} />
       </Routes>
+      )}
     </main>
   )
 }
