@@ -3,8 +3,8 @@ import './AllParksCard.css'
 function AllParksCard({key, id, name, img }) {
   return (
     <div className="parks-card" >
-      <h2>{ name }</h2>
       <img className="park-img" src={img} />
+      <h2 className="img-title">{ name }</h2>
     </div>
   )
 }

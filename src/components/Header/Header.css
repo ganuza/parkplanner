@@ -6,6 +6,7 @@
   display: flex;
 } */
 .title-cont {
+  font-family: Alfa Slab One;
   height: 15vh;
   width: 100%;
   background-color: #915B2C;
@@ -18,12 +19,13 @@ h1 {
   /* border: 2px solid red; */
   margin-left: 5vw;
   padding: 10px;
-  height: 10vh;
+  /* padding-bottom: 10px; */
+  /* height: 10vh; */
   background-color: #004D00;
-  /* display: flex; */
+  display: flex;
   /* text-align: left; */
   justify-content: center;
   align-items: center;
-  font-size: 6em;
+  font-size: 60px;
   color: #F6E8D7;
 }
