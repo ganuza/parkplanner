@@ -1,0 +1,49 @@
+.sel-park-card {
+  height: autovh;
+  background-color: rgba(122, 104, 95, 0.687);
+  color: white;
+  /* border-radius: 10px; */
+}
+
+.sel-park-img {
+  object-fit: cover;
+    /* background-size: cover; */
+  height: 600px;
+  width: 100%;
+  /* border-top-right-radius: 10px;
+  border-top-left-radius: 10px; */
+}
+
+.image-not-available {
+  height: 50px;
+}
+
+.description-cont {
+  background-color: darkgray;
+  color: black;
+  font-size: 24px;
+  padding: 30px;
+}
+
+.details-section {
+  display: flex;
+}
+
+.details-cont {
+  width: 50%;
+  background-color: rgba(122, 104, 95, 0.687);
+  color: white;
+  padding: 30px;
+  text-align: left;
+}
+
+.activities-title {
+  margin: 10px;
+  /* padding: 10px; */
+  font-size: 36px;
+}
+
+.activity-list {
+  align-items: center;
+  list-style: none;
+}
