@@ -1,6 +1,6 @@
 .parks-card {
   /* border: 2px solid green; */
-  height: autovh;
+  height: auto;
   background-color: rgba(122, 104, 95, 0.687);
   color: white;
   border-radius: 10px;
@@ -16,5 +16,14 @@
 }
 
 .img-title {
-  font-size: 1.25em;
+  padding-bottom: 15px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+a {
+  text-decoration: none;
 }
