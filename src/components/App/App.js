@@ -1,5 +1,6 @@
 import Header from '../Header/Header'
 import AllParks from '../AllParks/AllParks'
+import SelectedPark from '../SelectedPark/SelectedPark'
 import { getAllParksInfo } from '../../apiCalls'
 import { useState, useEffect } from 'react'
 import './App.css'
@@ -32,6 +33,7 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<AllParks allParksData={allParksData} />}></Route>
+        <Route path="/park/:parkId" element={<SelectedPark allParksData={allParksData} />}></Route>
       </Routes>
     </main>
   )
