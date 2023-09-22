@@ -1,5 +1,6 @@
 .all-parks-cont {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  background-color: #F6E8D7;
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
