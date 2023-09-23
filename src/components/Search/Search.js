@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import './Search.css'
 
 const Search = ({ setSearchTerm }) => {
@@ -22,3 +23,7 @@ const Search = ({ setSearchTerm }) => {
 }
 
 export default Search
+
+Search.propTypes = {
+  searchTerm:PropTypes.string
+}
