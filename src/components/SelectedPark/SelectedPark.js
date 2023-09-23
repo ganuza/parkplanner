@@ -52,7 +52,7 @@ const SelectedPark = () => {
   const parkPhone = selectedPark.contacts.phoneNumbers[0].phoneNumber
 
   return (
-    <div>
+    <div className="chosen-park">
       <SelectedParkCard className="sel-park-card-cont"
         image={image}
         parkDescription={parkDescription}
