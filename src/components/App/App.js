@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
   const [allParksData, setAllParksData] = useState([])
+  const [searchTerm, setSearchTerm] = useState('')
   const [serverError, setServerError] = useState({hasError: false, message: ''})
   
   useEffect(() => {
@@ -35,7 +36,7 @@ const App = () => {
   
   return(
     <main className='App'>
-      <Header />
+      <Header setSearchTerm={setSearchTerm}/>
       {serverError.hasError ? (
         <ErrorComponent
           message={serverError.message}
