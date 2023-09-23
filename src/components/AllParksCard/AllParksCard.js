@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import './AllParksCard.css'
 
-function AllParksCard({id, name, img }) {
+function AllParksCard({ code, name, img }) {
   return (
-    <Link to={`/park/${id}`}>
+    <Link to={`/park/${code}`}>
 
       <div className="parks-card" >
         <img className="park-img" src={img} />
@@ -17,10 +17,7 @@ function AllParksCard({id, name, img }) {
 export default AllParksCard
 
 AllParksCard.propTypes = {
-  id: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.number,
-  ]),
+  code: PropTypes.string.isRequired,
   img: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired
 }

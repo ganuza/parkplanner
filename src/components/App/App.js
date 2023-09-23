@@ -33,7 +33,7 @@ const App = () => {
   const resetError = () => {
     setServerError({hasError: false, message: ''})
   }
-  
+
   return(
     <main className='App'>
       <Header setSearchTerm={setSearchTerm}/>
@@ -46,7 +46,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<AllParks allParksData={allParksData} searchTerm={searchTerm} />}></Route>
-        <Route path="/park/:parkId" element={<SelectedPark allParksData={allParksData} />}></Route>
+        <Route path="/park/:parkCode" element={<SelectedPark allParksData={allParksData} />}></Route>
         <Route path="*" element={<ErrorComponent message={{message: "The page you're looking for doesn't exist."}} resetError={resetError} />} />
       </Routes>
       )}

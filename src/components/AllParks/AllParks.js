@@ -14,6 +14,7 @@ function AllParks({ allParksData, searchTerm }) {
       <AllParksCard
         key={park.id}
         id={park.id}
+        code={park.parkCode}
         img={park.images[0].url}
         name={park.fullName}
         />
