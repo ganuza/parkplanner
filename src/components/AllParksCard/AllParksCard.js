@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 import './AllParksCard.css'
 
-function AllParksCard({key, id, name, img }) {
+function AllParksCard({id, name, img }) {
   return (
     <Link to={`/park/${id}`}>
 
@@ -14,3 +15,12 @@ function AllParksCard({key, id, name, img }) {
 }
 
 export default AllParksCard
+
+AllParksCard.propTypes = {
+  id: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number,
+  ]),
+  img: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired
+}

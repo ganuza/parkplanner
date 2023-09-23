@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom'
 import SelectedParkCard from '../SelectedParkCard/SelectedParkCard'
-
+import PropTypes from 'prop-types'
 import './SelectedPark.css'
 
 const SelectedPark = ({allParksData}) => {
@@ -45,4 +45,9 @@ const SelectedPark = ({allParksData}) => {
     </div>
   )
 }
+
 export default SelectedPark
+
+SelectedPark.propTypes = {
+  allParksData: PropTypes.array.isRequired
+}

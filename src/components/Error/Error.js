@@ -1,10 +1,12 @@
 import { NavLink } from 'react-router-dom'
+import { PropTypes } from 'prop-types'
 import './Error.css'
 
 const ErrorComponent = ({message, resetError}) => {
   const handleReset = () => {
     resetError()
   }
+  console.log('message: ',message)
   return (
     
     <div className='error-message'>
@@ -27,3 +29,8 @@ const ErrorComponent = ({message, resetError}) => {
 }
 
 export default ErrorComponent
+
+ErrorComponent.propTypes = {
+  message: PropTypes.object.isRequired,
+  resetErrror: PropTypes.func
+}
