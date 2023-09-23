@@ -1,9 +1,22 @@
 import './Search.css'
 
-function Search() {
+const Search = ({ setSearchTerm }) => {
+  const handleSubmit = (event) => {
+    event.preventDefault()
+  }
+
+  const handleInputChange = (event) => {
+    setSearchTerm(event.target.value)
+  }
+
   return (
-    <form>
-      <input placeholder='search' className="search-field"></input>
+    <form onSubmit={handleSubmit}>
+      <input
+        type='search'
+        id='searchInput'
+        name='q'
+        placeholder='Search for National Parks' className="search-field"
+        onChange={handleInputChange}></input>
     </form>
   )
 }
