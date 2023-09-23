@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import './SelectedParkCard.css'
 
 const SelectedParkCard = ({image, parkDescription, activitiesList, parkDirections}) => {
@@ -42,3 +43,10 @@ const SelectedParkCard = ({image, parkDescription, activitiesList, parkDirection
 }
 
 export default SelectedParkCard
+
+SelectedParkCard.propTypes = {
+  image: PropTypes.string.isRequired, 
+  parkDescription: PropTypes.string.isRequired, 
+  activitiesList: PropTypes.array.isRequired, 
+  parkDirections: PropTypes.string.isRequired
+}
