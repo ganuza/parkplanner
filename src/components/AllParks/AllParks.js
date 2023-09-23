@@ -1,4 +1,4 @@
-// import PropTypes from "prop-types"
+import PropTypes from "prop-types"
 import AllParksCard from "../AllParksCard/AllParksCard"
 import './AllParks.css'
 
@@ -16,7 +16,6 @@ function AllParks({ allParksData, searchTerm }) {
         id={park.id}
         img={park.images[0].url}
         name={park.fullName}
-        // renderIndividualPark={renderIndividualPark}
         />
     )
   })
@@ -37,3 +36,8 @@ function AllParks({ allParksData, searchTerm }) {
 }
 
 export default AllParks
+
+AllParks.propTypes = {
+  allParksData: PropTypes.array.isRequired,
+  searchTerm: PropTypes.string.isRequired,
+}
