@@ -3,7 +3,7 @@ import './SelectedParkCard.css'
 
 const SelectedParkCard = ({image, parkDescription, activitiesList, parkDirections, parkEmail, parkPhone}) => {
   const handleImageError = (e) => {
-    e.target.style.display = 'none'; // Hide the broken image
+    e.target.style.display = 'none'
   }
 
   return (

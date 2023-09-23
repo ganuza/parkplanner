@@ -16,6 +16,7 @@ function AllParks({ allParksData, searchTerm }) {
         id={park.id}
         code={park.parkCode}
         img={park.images[0].url}
+        alt={park.images[0].altText}
         name={park.fullName}
         />
     )
