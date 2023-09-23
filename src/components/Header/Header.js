@@ -2,6 +2,7 @@ import Search from '../Search/Search'
 import { Link, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import npsLogo from '../../Assets/Arrowhead_3.png'
+import PropTypes from 'prop-types'
 import './Header.css'
 
 function Header({setSearchTerm}) {
@@ -30,3 +31,7 @@ function Header({setSearchTerm}) {
 }
 
 export default Header
+
+Header.propTypes = {
+  setSearchTerm: PropTypes.func.isRequired
+}

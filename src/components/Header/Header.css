@@ -39,7 +39,8 @@ h1 {
 
 .nps-icon {
   height: 95px;
-  background-color: #004D00;
+  /* background-color: #004D00; */
+  background-color: #7A9B69;
   padding: 10px;
   /* display: flex; */
   /* align-items: center; */
