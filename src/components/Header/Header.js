@@ -18,7 +18,7 @@ function Header({setSearchTerm}) {
   return (
     <header>
       <div className='title-cont'>
-        <Link to={'/'}>
+        <Link className="homepage-link" to={'/'}>
             <h1>ParkPlanner</h1>
         </Link>
         <img className="nps-icon" src={npsLogo}
