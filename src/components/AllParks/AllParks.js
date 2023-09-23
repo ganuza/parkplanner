@@ -2,9 +2,14 @@
 import AllParksCard from "../AllParksCard/AllParksCard"
 import './AllParks.css'
 
-function AllParks({ allParksData }) {
+function AllParks({ allParksData, searchTerm }) {
   console.log('allParksData: ', allParksData)
-  const allParksCards = allParksData.map((park) => {
+  
+  const filteredParks = allParksData.filter((park) => {
+    return park.fullName.toLowerCase().includes(searchTerm.toLowerCase())
+  })
+  
+  const allParksCards = filteredParks.map((park) => {
     return (
       <AllParksCard
         key={park.id}
@@ -15,10 +20,19 @@ function AllParks({ allParksData }) {
         />
     )
   })
+
+  const noResults = searchTerm.length > 0 && allParksCards.length === 0
+
   return (
-    <section className="all-parks-cont">
-      {allParksCards}
-    </section>
+    <div>
+      {noResults ? (
+        <p className="search-feedback">No matching parks were found.  Try another search!</p>
+      ) : (
+        <section className="all-parks-cont">
+        {allParksCards}
+        </section>
+      )}
+    </div>
   )
 }
 
