@@ -10,24 +10,33 @@ const SelectedPark = () => {
   const { parkCode } = useParams()
   const [selectedPark, setSelectedPark] = useState([])
   const [error, setError] = useState('')
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    setLoading(true)
     getSelectedPark(parkCode)
       .then((data) => {
         console.log('selectedParkData: ', data.data[0])
         setSelectedPark(data.data[0])
+        setLoading(false)
       })
       .catch((error) => {
-        setError('An error occurred while fetching park data.')
+        setError(error.message || 'An error occurred while fetching park data.')
+        setLoading(false)
       })
   }, [parkCode])
 
-  if (error) {
-    return <ErrorComponent message={error} resetError={() => setError(null)} />
+  if (loading) {
+    return <div>Loading...</div>
   }
 
   if (!selectedPark || !selectedPark.activities) {
-  return <div>Loading...</div>
+  return <ErrorComponent message={error} resetError={() => setError(null)} />
+  // <div>Loading...</div>
+  }
+
+  if (error) {
+    return <ErrorComponent message={error} resetError={() => setError(null)} />
   }
 
   const parkActivities = selectedPark.activities.map((activity) => {
