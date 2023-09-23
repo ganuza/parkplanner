@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom'
 
 const App = () => {
   const [allParksData, setAllParksData] = useState([])
+  const [searchTerm, setSearchTerm] = useState('')
   const [serverError, setServerError] = useState({hasError: false, message: ''})
   
   useEffect(() => {
@@ -35,7 +36,7 @@ const App = () => {
   
   return(
     <main className='App'>
-      <Header />
+      <Header setSearchTerm={setSearchTerm}/>
       {serverError.hasError ? (
         <ErrorComponent
           message={serverError.message}
@@ -44,7 +45,7 @@ const App = () => {
       ) : (
 
       <Routes>
-        <Route path="/" element={<AllParks allParksData={allParksData} />}></Route>
+        <Route path="/" element={<AllParks allParksData={allParksData} searchTerm={searchTerm} />}></Route>
         <Route path="/park/:parkId" element={<SelectedPark allParksData={allParksData} />}></Route>
         <Route path="*" element={<ErrorComponent message={{message: "The page you're looking for doesn't exist."}} resetError={resetError} />} />
       </Routes>
