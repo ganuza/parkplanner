@@ -1,21 +1,20 @@
 import PropTypes from 'prop-types'
 import './SelectedParkCard.css'
 
-const SelectedParkCard = ({image, parkDescription, activitiesList, parkDirections}) => {
+const SelectedParkCard = ({image, parkDescription, activitiesList, parkDirections, parkEmail, parkPhone}) => {
   const handleImageError = (e) => {
     e.target.style.display = 'none'; // Hide the broken image
   }
 
   return (
-    
-
     <div className="sel-park-card">
         {image ? (
         <img
           className="sel-park-img"
           src={image}
-          alt="Park"
+          alt={image ? "Park" : "Image not available"}
           onError={handleImageError}
+          aria-hidden={!image}
         />
       ) : (
         <div>
@@ -27,18 +26,18 @@ const SelectedParkCard = ({image, parkDescription, activitiesList, parkDirection
       )}
         <article className="description-cont">{parkDescription}</article>
       <section className="details-section">
-
         <div className="details-cont">
-          <h3 className="details-title">Activities</h3>
+          <h3 className="details-title">Plan Your Activities</h3>
           <ul className="activity-list">{activitiesList}</ul>
         </div>
         <div className="details-cont">
-          <h3 className="details-title">Directions</h3>
-          <p>{parkDirections}</p>
+          <h3 className="details-title">Plan Your Trip</h3>
+          <p><strong>Directions:</strong><br></br> {parkDirections}</p>
+          <p><strong>Email Address:</strong> {parkEmail}</p>
+          <p><strong>Phone Number:</strong> {parkPhone}</p>
         </div>
       </section>
-    </div>
-    
+    </div> 
   )
 }
 
@@ -48,5 +47,7 @@ SelectedParkCard.propTypes = {
   image: PropTypes.string.isRequired, 
   parkDescription: PropTypes.string.isRequired, 
   activitiesList: PropTypes.array.isRequired, 
-  parkDirections: PropTypes.string.isRequired
+  parkDirections: PropTypes.string.isRequired,
+  parkEmail: PropTypes.string.isRequired,
+  parkPhone: PropTypes.string.isRequired,
 }
