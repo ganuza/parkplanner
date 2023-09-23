@@ -18,8 +18,8 @@ export default AllParksCard
 
 AllParksCard.propTypes = {
   id: PropTypes.oneOfType([
-    PropTypes.string, // Allow string values
-    PropTypes.number, // Allow number values
+    PropTypes.string,
+    PropTypes.number,
   ]),
   img: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired
