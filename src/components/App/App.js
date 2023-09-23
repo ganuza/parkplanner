@@ -45,7 +45,7 @@ const App = () => {
       ) : (
 
       <Routes>
-        <Route path="/" element={<AllParks allParksData={allParksData} />}></Route>
+        <Route path="/" element={<AllParks allParksData={allParksData} searchTerm={searchTerm} />}></Route>
         <Route path="/park/:parkId" element={<SelectedPark allParksData={allParksData} />}></Route>
         <Route path="*" element={<ErrorComponent message={{message: "The page you're looking for doesn't exist."}} resetError={resetError} />} />
       </Routes>
