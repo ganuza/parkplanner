@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom'
+import npsLogo from '../../Assets/Arrowhead_3.png'
 import { PropTypes } from 'prop-types'
 import './Error.css'
 
@@ -10,7 +11,7 @@ const ErrorComponent = ({message, resetError}) => {
   return (
     
     <div className='error-message'>
-      <img className='error-nps-icon' src='https://www.nps.gov/cabr/blogs/images/Arrowhead_3.png' alt='National Park Service Icon' />
+      <img className='error-nps-icon' src={npsLogo} alt='National Park Service Icon' />
       <h2>Woops, We couldn't find that!</h2>
       <h2>
         {!message ?
