@@ -19,10 +19,10 @@ This project was assigned as part of Turing School of Software Design module 3 f
 ### **GOALS**
 
 Use the technology you’ve been working with over the course of the module to -demonstrate mastery of the following:
--React
--Router
--Asynchronous JavaScript
--End to end testing with Cypress
+- React
+- Router
+- Asynchronous JavaScript
+- End to end testing with Cypress
 
 ### **CONTRIBUTORS**
 
