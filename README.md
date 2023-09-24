@@ -72,6 +72,6 @@ Use the technology you’ve been working with over the course of the module to -
 - A beautiful app that is deployed and usable!
 
 ##### CHALLENGES
-- Time constraint:  I had less than a week to complete this project
+- Time constraint:  This project was built in the span of less than a week
 - Cypress testing:  It takes a bit of time to do robust testing
 - Time Management:  It is a challenge to manage a project of this size with other school commitments
