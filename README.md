@@ -1,6 +1,6 @@
 # ParkPlanner
 
-## Deployed Link
+### Deployed Link
 [ParkPlanner](https://parkplanner.vercel.app/)
 
 ### **ABSTRACT**
