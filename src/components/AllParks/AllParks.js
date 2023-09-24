@@ -27,7 +27,7 @@ function AllParks({ allParksData, searchTerm }) {
   return (
     <div>
       {noResults ? (
-        <p className="search-feedback">No matching parks were found.  Try another search!</p>
+        <p className="search-feedback">No matching parks were found.  Try another search or clear search field to see all parks!</p>
       ) : (
         <section className="all-parks-cont">
         {allParksCards}
