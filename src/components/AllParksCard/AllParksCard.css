@@ -1,5 +1,4 @@
 .parks-card {
-  /* border: 2px solid green; */
   height: auto;
   background-color: rgba(122, 104, 95, 0.687);
   color: white;
@@ -8,11 +7,10 @@
 
 .parks-card img {
   object-fit: cover;
-    /* background-size: cover; */
-    height: 200px;
-    width: 100%;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+  height: 200px;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .img-title {
@@ -21,7 +19,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 a {

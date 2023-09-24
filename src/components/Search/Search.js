@@ -10,7 +10,6 @@ const Search = ({ setSearchTerm }) => {
   }
 
   return (
-    
     <form className="search-field" onSubmit={handleSubmit}>
       <input
         type='search'

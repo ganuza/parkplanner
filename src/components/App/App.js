@@ -20,9 +20,6 @@ const App = () => {
     
     getAllParksInfo()
     .then((data) => {
-
-      console.log('App data: ', data)
-    
       setAllParksData(cleanData(data))
       })
       .catch((error) => {
