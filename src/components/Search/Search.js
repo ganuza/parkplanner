@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types'
-import './Search.css'
 
 const Search = ({ setSearchTerm }) => {
   const handleSubmit = (event) => {
