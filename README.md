@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# ParkPlanner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### **ABSTRACT**
+This project was assigned as part of Turing School of Software Design module 3 front end.  The purpose of this showcase solo project was to show all of the technologies we have been learning in an application of our own choosing and design. My ParkPlanner app accessed the National Parks api to access National Parks data for details of the park and images.  A user can search for and click on any National Park to see a description, activities you can do in the park, directions to the park, and finally contact information for the park.
 
-In the project directory, you can run:
+### **APP PREVIEW**	
 
-### `npm start`
+![Alt text](image.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Alt text](image-1.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Alt text](image-2.png)
 
-### `npm test`
+![Alt text](image-3.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **GOALS**
 
-### `npm run build`
+Use the technology you’ve been working with over the course of the module to -demonstrate mastery of the following:
+-React
+-Router
+-Asynchronous JavaScript
+-End to end testing with Cypress
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **CONTRIBUTORS**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Adrian Zabolizki](https://github.com/ganuza) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **INSTALLATION INSTRUCTIONS**
 
-### `npm run eject`
+1. Install the prerequisites:
+  Node.js
+  npm
+  Git
+2. Clone the repository:
+  Open a terminal window.
+  Navigate to the directory where you want to clone the repository.
+  Run the following command:
+  ```
+  git clone git@github.com:ganuza/parklanner.git
+  ```
+3. Install the dependencies:
+  Run the following command in the cloned repository directory:
+  ```
+  npm install
+  ```
+4. Run the React app:
+  Run the following command in the cloned repository directory:
+  ```
+  npm start
+  ```
+5. Open the app in your web browser by navigating to 
+  ```
+  http://localhost:3000
+  ```
+### **TECHNOLOGIES**
+- JavaScript
+- CSS
+- HTML5
+- React
+- React Router
+- Cypress
+- GitHub
+- GitHub Projects
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### **WINS + CHALLENGES**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##### WINS
+- Putting together newly learned technologies of React, Router, and Cypress testing to showcase all of my learning this module
+- A beautiful app that is deployed and usable!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##### CHALLENGES
+- Time constraint:  I had less than a week to complete this project
+- Cypress testing:  It takes a bit of time to do robust testing
+- Time Management:  It is a challenge to manage a project of this size with other school commitments
