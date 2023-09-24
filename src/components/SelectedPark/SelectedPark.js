@@ -3,7 +3,6 @@ import { useParams } from 'react-router-dom'
 import { getSelectedPark } from '../../apiCalls'
 import SelectedParkCard from '../SelectedParkCard/SelectedParkCard'
 import ErrorComponent from '../Error/Error'
-import './SelectedPark.css'
 
 const SelectedPark = () => {
  
@@ -16,7 +15,6 @@ const SelectedPark = () => {
     setLoading(true)
     getSelectedPark(parkCode)
       .then((data) => {
-        console.log('selectedParkData: ', data.data[0])
         setSelectedPark(data.data[0])
         setLoading(false)
       })
@@ -32,7 +30,6 @@ const SelectedPark = () => {
 
   if (!selectedPark || !selectedPark.activities) {
   return <ErrorComponent message={error} resetError={() => setError(null)} />
-  // <div>Loading...</div>
   }
 
   if (error) {

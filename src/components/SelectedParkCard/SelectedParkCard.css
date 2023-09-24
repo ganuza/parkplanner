@@ -2,16 +2,12 @@
   height: autovh;
   background-color: rgba(122, 104, 95, 0.687);
   color: white;
-  /* border-radius: 10px; */
 }
 
 .sel-park-img {
   object-fit: cover;
-    /* background-size: cover; */
   height: 600px;
   width: 100%;
-  /* border-top-right-radius: 10px;
-  border-top-left-radius: 10px; */
 }
 
 .image-not-available {
@@ -39,7 +35,6 @@
 
 .activities-title {
   margin: 10px;
-  /* padding: 10px; */
   font-size: 36px;
 }
 

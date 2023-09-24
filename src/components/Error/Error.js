@@ -7,9 +7,8 @@ const ErrorComponent = ({message, resetError}) => {
   const handleReset = () => {
     resetError()
   }
-  console.log('message: ',message)
+
   return (
-    
     <div className='error-message'>
       <img className='error-nps-icon' src={npsLogo} alt='National Park Service Icon' />
       <h2>Woops, We couldn't find that!</h2>
