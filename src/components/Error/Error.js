@@ -32,6 +32,6 @@ const ErrorComponent = ({message, resetError}) => {
 export default ErrorComponent
 
 ErrorComponent.propTypes = {
-  message: PropTypes.string,
+  message: PropTypes.oneOfType([PropTypes.string, PropTypes.object]),
   resetError: PropTypes.func.isRequired
 }

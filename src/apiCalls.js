@@ -1,7 +1,6 @@
 export const getAllParksInfo = () => {
   return fetch("https://developer.nps.gov/api/v1/parks?limit=1000&api_key=eUYXl96Cb1zurRmYKjTUhznFQ23gnifeMJidB3rG")
   .then(res => {
-    console.log('response: ', res)
     if (!res.ok) {
       throw new Error (`${res.status} Server Error.`)
     }
