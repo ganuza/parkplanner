@@ -4,6 +4,7 @@ import { PropTypes } from 'prop-types'
 import './Error.css'
 
 const ErrorComponent = ({message, resetError}) => {
+  console.log('message: ', message)
   const handleReset = () => {
     resetError()
   }
@@ -31,6 +32,6 @@ const ErrorComponent = ({message, resetError}) => {
 export default ErrorComponent
 
 ErrorComponent.propTypes = {
-  message: PropTypes.object.isRequired,
-  resetErrror: PropTypes.func
+  message: PropTypes.string,
+  resetError: PropTypes.func.isRequired
 }
