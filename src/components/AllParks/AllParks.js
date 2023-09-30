@@ -3,7 +3,7 @@ import AllParksCard from "../AllParksCard/AllParksCard"
 import './AllParks.css'
 
 function AllParks({ allParksData, searchTerm }) {
-  
+  console.log('allParksData: ', allParksData)
   const filteredParks = allParksData.filter((park) => {
     return park.fullName.toLowerCase().includes(searchTerm.toLowerCase())
   })
@@ -39,6 +39,6 @@ function AllParks({ allParksData, searchTerm }) {
 export default AllParks
 
 AllParks.propTypes = {
-  allParksData: PropTypes.array.isRequired,
+  allParksData: PropTypes.arrayOf(PropTypes.object).isRequired,
   searchTerm: PropTypes.string.isRequired,
 }
