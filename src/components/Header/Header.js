@@ -24,8 +24,8 @@ function Header({setSearchTerm}) {
         <img className="nps-icon" src={npsLogo}
         alt="National Park Service Icon"
         />
-      {isHomePage && <Search setSearchTerm={setSearchTerm} />}
       </div>
+      {isHomePage && <Search setSearchTerm={setSearchTerm} />}
     </header>
   )
 }

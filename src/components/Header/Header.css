@@ -1,22 +1,27 @@
 header {
-  min-height: 15vh;
+  min-height: 200px;
   display: flex;
-  justify-content: left;
+  /* justify-content: left; */
+  align-items: center;
   box-sizing:border-box;
   background-color: #915B2C;
 }
 
 .title-cont {
-  min-width: none;
+  max-width: 200px;
+  margin-left: 50px;
   display: flex;
   align-items: center;
+  margin-right: auto;
+
 }
 
 h1 {
   height: 95px;
   margin: 0;
-  margin-left: 5vw;
+  /* margin-left: 5vw; */
   padding: 10px;
+  padding-top: 20px;
   background-color: #004D00;
   font-family: Alfa Slab One;
   font-size: clamp(5vw, 1rem + 10vw, 3rem);
@@ -30,11 +35,12 @@ h1 {
 }
 
 .search-field {
-  display: flex;
-  justify-content: space-around;
-  margin-left: 15%;
+  /* display: flex; */
+  /* justify-content: space-around; */
+  /* margin-left: 15%; */
   height: 4vh;
   width: 15vw;
+  margin-right: 50px;
 }
 
 @media screen and (max-width: 820px) {
