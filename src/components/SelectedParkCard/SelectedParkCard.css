@@ -23,6 +23,7 @@
 
 .details-section {
   display: flex;
+  width: 100%;
 }
 
 .details-cont {
@@ -41,4 +42,14 @@
 .activity-list {
   align-items: center;
   list-style: none;
+}
+
+@media screen and (max-width: 820px) {
+  .details-section {
+    flex-direction: column;
+    width: 100%;
+  }
+  .details-cont {
+    width: auto;
+  }
 }
