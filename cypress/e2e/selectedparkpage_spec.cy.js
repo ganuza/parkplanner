@@ -7,7 +7,7 @@ describe('selected park page on load', () => {
 
     cy.visit("http://localhost:3000")
 
-    cy.intercept('GET', 'https://developer.nps.gov/api/v1/parks?parkCode=${parkCode}&api_key=eUYXl96Cb1zurRmYKjTUhznFQ23gnifeMJidB3rG', {
+    cy.intercept('GET', 'https://developer.nps.gov/api/v1/parks?parkCode=zion&api_key=eUYXl96Cb1zurRmYKjTUhznFQ23gnifeMJidB3rG', {
       statusCode: 200,
       fixture: 'selectedParkData'
     }).as('selectedpark')
@@ -28,6 +28,8 @@ describe('selected park page on load', () => {
 
     .get('.chosen-park')
     .get('.activity-list').contains('Astronomy')
+    .get('.activity-list').contains('Canyoneering')
+    .get('.activity-list').contains('Bookstore and Park Store')
   })
 
   it('ParkPlanner logo should be clicked to return home', () => {
