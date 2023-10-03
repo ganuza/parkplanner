@@ -46,7 +46,11 @@ export default SelectedParkCard
 SelectedParkCard.propTypes = {
   image: PropTypes.string.isRequired, 
   parkDescription: PropTypes.string.isRequired, 
-  activitiesList: PropTypes.array.isRequired, 
+  activitiesList: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.symbol,
+    PropTypes.object,
+  ]))).isRequired, 
   parkDirections: PropTypes.string.isRequired,
   parkEmail: PropTypes.string.isRequired,
   parkPhone: PropTypes.string.isRequired,
