@@ -27,6 +27,7 @@
 }
 
 .details-cont {
+  height: 100vh;
   width: 50%;
   background-color: rgba(122, 104, 95, 0.687);
   color: white;
