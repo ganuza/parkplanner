@@ -15,8 +15,9 @@ const Search = ({ setSearchTerm }) => {
         type='search'
         id='searchInput'
         name='q'
-        placeholder='Search for National Parks' className="search-field"
-        onChange={handleInputChange}></input>
+        placeholder='Search for National Parks'
+        onChange={handleInputChange}>
+      </input>
     </form>
   )
 }
