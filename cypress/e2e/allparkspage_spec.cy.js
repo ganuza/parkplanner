@@ -27,7 +27,7 @@ describe('National Parks page on-load', () => {
   
   it('should show national parks', () => {
     cy.wait(['@allparksApiTest']);
-    cy.get('.all-parks-cont').find('.parks-card').should('have.length', 2)
+    cy.get('.all-parks-cont').find('.parks-card').should('have.length', 3)
     cy.get('.parks-card').first().contains('h2', 'Acadia')
   })
 
@@ -67,6 +67,25 @@ describe('National Parks page on-load', () => {
     .click().url().should('eq', 'http://localhost:3000/')
   })
 })
+describe('Filter by State', () => {
+  beforeEach(() => {
+    cy.intercept('GET', 'https://developer.nps.gov/api/v1/parks?limit=1000&api_key=eUYXl96Cb1zurRmYKjTUhznFQ23gnifeMJidB3rG', {
+      statusCode: 200,
+      fixture: 'parksData',
+    }).as('allparksApiTest')
+
+    cy.visit('http://localhost:3000')
+  })
+  it('should show National Parks in CA', () => {
+    cy.get('#stateDropdown').select('CA')
+    cy.get('.parks-card').should('have.length', 1).contains('h2', 'Death Valley National Park')
+  })
+
+  it('should show error message if no parks found in selected state', () => {
+    cy.get('#stateDropdown').select('AL')
+    cy.get('.search-feedback').contains('No matching parks were found. Try another search or clear the search field to see all parks!')
+  })
+})
 
 describe('Search Functionality', () => {
   beforeEach(() => {
@@ -90,6 +109,13 @@ describe('Search Functionality', () => {
   it('should show user feedback if no results', () => {
     cy.get('input').type('golden')
     cy.get('.search-feedback').contains('No matching parks were found.')
+  })
+
+  it('should show message if no results for a search for a park that doesn\t exist in a state', () => {
+    cy.get('#stateDropdown').select('CA')
+    cy.get('input').type('acadia')
+    cy.get('.parks-card').should('have.length', 0)
+    cy.get('.search-feedback').contains('No matching parks were found. Try another search or clear the search field to see all parks!')
   })
 })
 
