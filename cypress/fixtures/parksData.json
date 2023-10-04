@@ -990,6 +990,423 @@
           "designation": "National Historical Park"
       },
       {
+        "id": "FFC9F9C4-D79D-4CA7-AB0F-7A2AD30061CD",
+        "url": "https://www.nps.gov/deva/index.htm",
+        "fullName": "Death Valley National Park",
+        "parkCode": "deva",
+        "description": "In this below-sea-level basin, steady drought and record summer heat make Death Valley a land of extremes. Yet, each extreme has a striking contrast. Towering peaks are frosted with winter snow. Rare rainstorms bring vast fields of wildflowers. Lush oases harbor tiny fish and refuge for wildlife and humans. Despite its morbid name, a great diversity of life thrives in Death Valley.",
+        "latitude": "36.48753731",
+        "longitude": "-117.134395",
+        "latLong": "lat:36.48753731, long:-117.134395",
+        "activities": [
+            {
+                "id": "13A57703-BB1A-41A2-94B8-53B692EB7238",
+                "name": "Astronomy"
+            },
+            {
+                "id": "D37A0003-8317-4F04-8FB0-4CF0A272E195",
+                "name": "Stargazing"
+            },
+            {
+                "id": "7CE6E935-F839-4FEC-A63E-052B1DEF39D2",
+                "name": "Biking"
+            },
+            {
+                "id": "299CB934-88DC-474F-A33D-E43E29A149C2",
+                "name": "Mountain Biking"
+            },
+            {
+                "id": "8D778629-F603-4C50-A121-6F4BB2FE2C4B",
+                "name": "Road Biking"
+            },
+            {
+                "id": "A59947B7-3376-49B4-AD02-C0423E08C5F7",
+                "name": "Camping"
+            },
+            {
+                "id": "4A58AF13-E8FB-4530-B41A-97DF0B0C77B7",
+                "name": "Backcountry Camping"
+            },
+            {
+                "id": "9159DF0F-951D-4AAE-9987-CEB3CE2A9ADA",
+                "name": "Car or Front Country Camping"
+            },
+            {
+                "id": "07CBCA6A-46B8-413F-8B6C-ABEDEBF9853E",
+                "name": "Canyoneering"
+            },
+            {
+                "id": "1DFACD97-1B9C-4F5A-80F2-05593604799E",
+                "name": "Food"
+            },
+            {
+                "id": "D72206E4-6CD1-4441-A355-F8F1827466B1",
+                "name": "Flying"
+            },
+            {
+                "id": "3F3ABD16-2C52-4EAA-A1F6-4235DE5686F0",
+                "name": "Golfing"
+            },
+            {
+                "id": "B33DC9B6-0B7D-4322-BAD7-A13A34C584A3",
+                "name": "Guided Tours"
+            },
+            {
+                "id": "BFF8C027-7C8F-480B-A5F8-CD8CE490BFBA",
+                "name": "Hiking"
+            },
+            {
+                "id": "7C37B79B-D02D-49EB-9020-3DB8299B748A",
+                "name": "Backcountry Hiking"
+            },
+            {
+                "id": "45261C0A-00D8-4C27-A1F8-029F933A0D34",
+                "name": "Front-Country Hiking"
+            },
+            {
+                "id": "0307955A-B65C-4CE4-A780-EB36BAAADF0B",
+                "name": "Horse Trekking"
+            },
+            {
+                "id": "B204DE60-5A24-43DD-8902-C81625A09A74",
+                "name": "Living History"
+            },
+            {
+                "id": "28880A5B-3D29-41AC-BD8B-24743E7A070F",
+                "name": "First Person Interpretation"
+            },
+            {
+                "id": "DF4A35E0-7983-4A3E-BC47-F37B872B0F25",
+                "name": "Junior Ranger Program"
+            },
+            {
+                "id": "0B685688-3405-4E2A-ABBA-E3069492EC50",
+                "name": "Wildlife Watching"
+            },
+            {
+                "id": "5A2C91D1-50EC-4B24-8BED-A2E11A1892DF",
+                "name": "Birdwatching"
+            },
+            {
+                "id": "0C0D142F-06B5-4BE1-8B44-491B90F93DEB",
+                "name": "Park Film"
+            },
+            {
+                "id": "C8F98B28-3C10-41AE-AA99-092B3B398C43",
+                "name": "Museum Exhibits"
+            },
+            {
+                "id": "24380E3F-AD9D-4E38-BF13-C8EEB21893E7",
+                "name": "Shopping"
+            },
+            {
+                "id": "467DC8B8-0B7D-436D-A026-80A22358F615",
+                "name": "Bookstore and Park Store"
+            },
+            {
+                "id": "43800AD1-D439-40F3-AAB3-9FB651FE45BB",
+                "name": "Gift Shop and Souvenirs"
+            }
+        ],
+        "topics": [
+            {
+                "id": "7F81A0CB-B91F-4896-B9A5-41BE9A54A27B",
+                "name": "Archeology"
+            },
+            {
+                "id": "227D2677-28CA-4CBF-997F-61108975A497",
+                "name": "Asian American Heritage"
+            },
+            {
+                "id": "351EE154-87AA-46B0-BBA1-ED604368ACE9",
+                "name": "Incarceration"
+            },
+            {
+                "id": "367BC636-6F02-4F1B-BEAA-5A20E46C7207",
+                "name": "Japanese-American Internment"
+            },
+            {
+                "id": "0B575E33-B68F-4F3D-998E-B03284606CF3",
+                "name": "Industry"
+            },
+            {
+                "id": "BDC806A8-5470-4A8B-A0F9-CD804BE3028A",
+                "name": "Mining"
+            },
+            {
+                "id": "A1BAF33E-EA84-4608-A888-4CEE9541F027",
+                "name": "Native American Heritage"
+            },
+            {
+                "id": "C9C749E3-39C3-45F7-BCC5-9A609E30AA05",
+                "name": "Westward Expansion"
+            },
+            {
+                "id": "83DDFE66-914E-4402-AD3E-ACA731AB2537",
+                "name": "The Gold Rush"
+            },
+            {
+                "id": "7DA81DAB-5045-4953-9C20-36590AD9FA95",
+                "name": "Women's History"
+            },
+            {
+                "id": "0D00073E-18C3-46E5-8727-2F87B112DDC6",
+                "name": "Animals"
+            },
+            {
+                "id": "957EF2BD-AC6C-4B7B-BD9A-87593ADC6691",
+                "name": "Birds"
+            },
+            {
+                "id": "1608649A-E7D7-4529-BD83-074C90F9FB68",
+                "name": "Fish"
+            },
+            {
+                "id": "393F60FB-80D6-46F7-B0FB-BBF3C90F59FD",
+                "name": "Tortoises and Turtles"
+            },
+            {
+                "id": "4DC11D06-00F1-4A01-81D0-89CCCCE4FF50",
+                "name": "Climate Change"
+            },
+            {
+                "id": "CDD8F34E-3BD4-425A-8264-4F0BA0DFBA38",
+                "name": "Dunes"
+            },
+            {
+                "id": "9F6A7003-59D6-4438-935F-760FD04C1073",
+                "name": "Foothills, Plains and Valleys"
+            },
+            {
+                "id": "F6D3A52E-608F-47D6-96DF-1FD64122A2FC",
+                "name": "Fossils and Paleontology"
+            },
+            {
+                "id": "F0F97E32-2F29-41B4-AF98-9FBE8DAB36B1",
+                "name": "Geology"
+            },
+            {
+                "id": "101F4D51-F99D-45A6-BBB6-CD481E5FACED",
+                "name": "Mountains"
+            },
+            {
+                "id": "A7359FC4-DAD8-45F5-AF15-7FF62F816ED3",
+                "name": "Night Sky"
+            },
+            {
+                "id": "E06F3C94-AC8A-4B1C-A247-8EBA8910D5EE",
+                "name": "Astronomy"
+            },
+            {
+                "id": "9C9FCBB6-360B-4743-8155-6F9341CBE01B",
+                "name": "Scenic Views"
+            },
+            {
+                "id": "5BE55D7F-BDB6-4E3D-AC35-2D8EBB974417",
+                "name": "Trails"
+            },
+            {
+                "id": "78E4F4AC-AF97-435A-8C2C-7FB8D67516ED",
+                "name": "Unique Species"
+            },
+            {
+                "id": "489D6333-FD72-44DF-83B0-3D4412DD0A75",
+                "name": "Endangered"
+            },
+            {
+                "id": "B85866E2-0897-4000-9040-605CA335804F",
+                "name": "Wilderness"
+            }
+        ],
+        "states": "CA,NV",
+        "contacts": {
+            "phoneNumbers": [
+                {
+                    "phoneNumber": "7607863200",
+                    "description": "",
+                    "extension": "",
+                    "type": "Voice"
+                }
+            ],
+            "emailAddresses": [
+                {
+                    "description": "",
+                    "emailAddress": "deva_information@nps.gov"
+                }
+            ]
+        },
+        "entranceFees": [
+            {
+                "cost": "30.00",
+                "description": "This permit allows all persons traveling with the permit holder in one single private, non-commercial vehicle (car/truck/van) to leave and re-enter the park as many times as they wish during the 7-day period from the date of purchase.",
+                "title": "Entrance - Private Vehicle"
+            },
+            {
+                "cost": "25.00",
+                "description": "This permit allows persons traveling on one motorcycle to leave and re-enter the park as many times as they wish during the 7-day period from the date of purchase.",
+                "title": "Entrance - Motorcycle"
+            },
+            {
+                "cost": "15.00",
+                "description": "This permit allows a single individual traveling on foot or individuals traveling on one bicycle to leave and re-enter the park as many times as they wish during the 7-day period from the date of purchase.",
+                "title": "Entrance - Per Person"
+            },
+            {
+                "cost": "10.00",
+                "description": "1 - 6 Passenger Vehicle: $25 + $10 per person.\n\nIn addition to the entrance fees listed below, additional permits are required for commercial groups, special park uses (weddings, memorialization, group events, etc.), commercial film and photography, research, and more.",
+                "title": "Commercial Entrance - Per Person"
+            },
+            {
+                "cost": "25.00",
+                "description": "1 - 6 Passenger Vehicle: $25 + $10 per person\n\nIn addition to the entrance fees listed below, additional permits are required for commercial groups, special park uses (weddings, memorialization, group events, etc.), commercial film and photography, research, and more.",
+                "title": "Commercial Entrance - Sedan"
+            },
+            {
+                "cost": "75.00",
+                "description": "7 - 15 Passenger Vehicle: $75\n\nIn addition to the entrance fees listed below, additional permits are required for commercial groups, special park uses (weddings, memorialization, group events, etc.), commercial film and photography, research, and more.",
+                "title": "Commercial Entrance - Van"
+            },
+            {
+                "cost": "100.00",
+                "description": "16 - 25 Passenger Vehicle: $100\n\nIn addition to the entrance fees listed below, additional permits are required for commercial groups, special park uses (weddings, memorialization, group events, etc.), commercial film and photography, research, and more.",
+                "title": "Commercial Entrance - Mini-bus"
+            },
+            {
+                "cost": "200.00",
+                "description": "26 + Passenger Vehicle: $200\n\nIn addition to the entrance fees listed below, additional permits are required for commercial groups, special park uses (weddings, memorialization, group events, etc.), commercial film and photography, research, and more.",
+                "title": "Commercial Entrance - Motor Coach"
+            },
+            {
+                "cost": "15.00",
+                "description": "Non-commercial Groups (e.g., Scout groups, church groups, etc.) entering in a vehicle with a capacity of 16 persons or more are charged per-person for each person on board, not to exceed $200.",
+                "title": "Entrance - Non-commercial Groups"
+            },
+            {
+                "cost": "0.00",
+                "description": "National Park Service regulations allow school groups and other approved national and international academic institutions to obtain a waiver of Park entrance fees, provided that visit is for educational or scientific purposes, and the resources or facilities that the group intends to use, support those purposes. Submit your waiver through the link below at least one month prior to your visit.",
+                "title": "Entrance - Education/Academic Groups"
+            }
+        ],
+        "entrancePasses": [
+            {
+                "cost": "55.00",
+                "description": "This pass allows all persons traveling with the pass holder in one single private, non-commercial vehicle (car/truck/van) or those on a motorcycle to leave and re-enter the park as many times as they wish for 12 months from the month of purchase.",
+                "title": "Annual Entrance - Park"
+            }
+        ],
+        "fees": [],
+        "directionsInfo": "There are multiple entrances to the park. Click below to learn the best ways to travel to Death Valley.",
+        "directionsUrl": "http://www.nps.gov/deva/planyourvisit/directions.htm",
+        "operatingHours": [
+            {
+                "exceptions": [],
+                "description": "Due to flash flooding from Hurricane Hilary, Death Valley National Park is closed. No reopening date is available. \n\n\n\nUnder normal circumstances, the park is open daily all year.",
+                "standardHours": {
+                    "wednesday": "Closed",
+                    "monday": "Closed",
+                    "thursday": "Closed",
+                    "sunday": "Closed",
+                    "tuesday": "Closed",
+                    "friday": "Closed",
+                    "saturday": "Closed"
+                },
+                "name": "Death Valley National Park"
+            }
+        ],
+        "addresses": [
+            {
+                "postalCode": "92328",
+                "city": "Death Valley",
+                "stateCode": "CA",
+                "countryCode": "US",
+                "provinceTerritoryCode": "",
+                "line1": "PO Box 579",
+                "type": "Physical",
+                "line3": "",
+                "line2": ""
+            },
+            {
+                "postalCode": "92328",
+                "city": "Death Valley",
+                "stateCode": "CA",
+                "countryCode": "US",
+                "provinceTerritoryCode": "",
+                "line1": "PO Box 579",
+                "type": "Mailing",
+                "line3": "",
+                "line2": ""
+            }
+        ],
+        "images": [
+            {
+                "credit": "Ronald Gaddis",
+                "title": "Sunset from Zabriskie Point",
+                "altText": "badlands bathed in pale pink and orange light from the setting sun",
+                "caption": "The warm light of sunset covers the badlands at Zabriskie Point.",
+                "url": "https://www.nps.gov/common/uploads/structured_data/010A933C-95B1-CBCD-D6D64D47D5B81E76.jpg"
+            },
+            {
+                "credit": "NPS Photo",
+                "title": "Zabriskie Point",
+                "altText": "Morning light on the badlands below Zabriskie Point.",
+                "caption": "Zabriskie Point is a popular place to view sunrise over the badlands.",
+                "url": "https://www.nps.gov/common/uploads/structured_data/3C7EC929-1DD8-B71B-0B6F8851F7D62846.jpg"
+            },
+            {
+                "credit": "NPS photo",
+                "title": "Storm over the Salt Flats",
+                "altText": "white salt flats with dark gray clouds",
+                "caption": "Badwater Basin is the lowest point in North America at -282 feet.",
+                "url": "https://www.nps.gov/common/uploads/structured_data/011D09CC-B05F-EFA0-820E55431CFBE5FE.jpg"
+            },
+            {
+                "credit": "NPS / Jan Vanderlay",
+                "title": "Sunset at Dantes View",
+                "altText": "a sunset overlooking a valley filled with white salt",
+                "caption": "A mile above the salt flats in the valley below, Dantes View provides breathtaking vistas.",
+                "url": "https://www.nps.gov/common/uploads/structured_data/016AF1A5-E794-213A-6016B3C10486CF7E.jpg"
+            },
+            {
+                "credit": "NPS / J. Jurado",
+                "title": "Lupine and Tortoiseshell Butterfly",
+                "altText": "pink lupine flowers with an orange and black butterfly",
+                "caption": "Higher elevations provide a respite from the heat in this alpine ecosystem.",
+                "url": "https://www.nps.gov/common/uploads/structured_data/DE565754-0008-EEF4-AD521ED16178ADEA.jpg"
+            },
+            {
+                "credit": "NPS / J. Jurado",
+                "title": "Wildrose Charcoal Kilns",
+                "altText": "nine 25 foot tall rock beehive structures",
+                "caption": "Nearly a century and a half old, these are some of the best preserved kilns in the western U.S.",
+                "url": "https://www.nps.gov/common/uploads/structured_data/DE627F5D-DE99-659B-7F55B12323533BFC.jpg"
+            },
+            {
+                "credit": "NPS / Kurt Moses",
+                "title": "A rare superbloom of Desert Gold.",
+                "altText": "a field of yellow flowers with a mountain",
+                "caption": "About once a decade, rains at the right times can lead to a rare superbloom!",
+                "url": "https://www.nps.gov/common/uploads/structured_data/1A18EC97-EB1E-7D32-05BE1B8D08719225.jpg"
+            },
+            {
+                "credit": "NPS / J. Jurado",
+                "title": "Hottest Place on Earth",
+                "altText": "thermometer reading 130 f 54 c",
+                "caption": "Summers are infamously hot, as for 6 months of the year temperatures above 120 degrees are regularly recorded.",
+                "url": "https://www.nps.gov/common/uploads/structured_data/DEF5FFF0-0C8A-00A5-F2EA8F279F1DF876.jpg"
+            },
+            {
+                "credit": "NPS / J. Jurado",
+                "title": "Winding canyons await",
+                "altText": "polished walls of a narrow canyon",
+                "caption": "There are numerous canyons to explore across this vast park.",
+                "url": "https://www.nps.gov/common/uploads/structured_data/DF10832A-92CD-9646-134739E0F537887E.jpg"
+            }
+        ],
+        "weatherInfo": "SPRING is the most popular time to visit Death Valley. Warm and sunny days with the possibility of spring wildflowers is a big attraction. SUMMER starts early in Death Valley. By May the valley can be scorching hot. AUTUMN arrives in late October, with warm but pleasant temperatures and generally clear skies. WINTER has cool days, chilly nights and rarely, rainstorms. With snow capping the high peaks and low angled winter light, this season is especially beautiful for exploring the valley.",
+        "name": "Death Valley",
+        "designation": "National Park"
+    },
+      {
         "id": "41BAB8ED-C95F-447D-9DA1-FCC4E4D808B2",
         "url": "https://www.nps.gov/zion/index.htm",
         "fullName": "Zion National Park",
