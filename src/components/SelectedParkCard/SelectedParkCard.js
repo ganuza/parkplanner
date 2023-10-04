@@ -44,7 +44,7 @@ const SelectedParkCard = ({image, parkDescription, activitiesList, parkDirection
 export default SelectedParkCard
 
 SelectedParkCard.propTypes = {
-  image: PropTypes.string.isRequired, 
+  image: PropTypes.string, 
   parkDescription: PropTypes.string.isRequired, 
   activitiesList: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.oneOfType([
     PropTypes.string,
