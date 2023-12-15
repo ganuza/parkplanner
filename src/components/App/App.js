@@ -6,6 +6,7 @@ import { getAllParksInfo } from '../../apiCalls'
 import { useState, useEffect } from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
+import Map from '../Map/Map'
 
 const App = () => {
   const [allParksData, setAllParksData] = useState([])
@@ -28,18 +29,22 @@ const App = () => {
       })
   },[])
 
+  console.log('allParksData', allParksData)
   const resetError = () => {
     setServerError({hasError: false, message: ''})
   }
 
   return(
     <main className='App'>
-      <Header setSearchTerm={setSearchTerm} selectedState={selectedState} setSelectedState={setSelectedState}/>
+        <Header setSearchTerm={setSearchTerm} selectedState={selectedState} setSelectedState={setSelectedState}/>
+        <Map allParksData={allParksData}/>
       {serverError.hasError ? (
         <ErrorComponent
           message={serverError.message}
           resetError={resetError}
         />
+      
+      
       ) : (
 
       <Routes>
